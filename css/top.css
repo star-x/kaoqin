@@ -1,0 +1,83 @@
+/* CSS Document */
+.topmain_a {
+	font-family: "宋体", "微软雅黑", Arial;
+	font-size: 14px;
+	color: #000;
+	height: 122px;
+	overflow: hidden;
+	background: url(../images/bg04_20140612.png) repeat-x center top;
+}
+.topmain_a ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+.topmain_a a {
+	blr: expression(this.onFocus=this.blur());
+	outline: none;
+	text-decoration: none;
+}
+
+/* 头部 */
+.header_a {
+	height: 80px;
+	background: url(../images/pic05_20140612.jpg) no-repeat center center;
+}
+.header_a .logout_a {
+	width: 80px;
+	height: 26px;
+}
+.header_a .logout_a a {
+	display: block;
+	width: 80px;
+	height: 26px;
+	background: url(../images/tp09_20140612.png) no-repeat;
+}
+.header_a .logout_a a:hover {
+	background: url(../images/tp10_20140612.png) no-repeat;
+}
+.header_a .password_a {
+	width: 80px;
+	height: 26px;
+}
+.header_a .password_a a {
+	display: block;
+	width: 80px;
+	height: 26px;
+	background: url(../images/tp13_20140618.png) no-repeat;
+}
+.header_a .password_a a:hover {
+	background: url(../images/tp14_20140618.png) no-repeat;
+}
+.header_a .user_a {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px;
+}
+
+/* 导航 */
+.naver_a {
+	width: 1000px;
+	height: 42px;
+	line-height: 42px;
+}
+.naver_a ul li {
+	display: block;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	background: url(../images/bg06_20140612.png) no-repeat right center;
+}
+.naver_a ul li a {
+	font-size: 14px;
+	display: block;
+	padding: 0 40px;
+	color: #FFF;
+}
+.naver_a ul li.hover_a {
+	background: url(../images/bg05_20140612.png) repeat-x;
+}
+.naver_a ul li.hover_a a {
+	color: #000;
+}

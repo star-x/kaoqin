@@ -1,0 +1,334 @@
+/* CSS Document */
+body {
+	font-family: "宋体", "微软雅黑", Arial;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	background: url(../images/bg04_20140612.png) repeat-x center top;
+}
+a {
+	blr: expression(this.onFocus=this.blur());
+	outline: none;
+}
+a:link {
+	color: #000;
+	text-decoration: none;	
+}
+a:visited {
+	color: #000;
+	text-decoration: none;	
+}
+a:hover {
+	color: #C00;
+	text-decoration: none;	
+}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* 头部 */
+.header {
+	height: 90px;
+	background: url(../images/logo_20141021.png) no-repeat center center;
+}
+.header .userinfo {
+	width: 1050px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+.header .userinfo ul li {
+	display: block;
+	position: absolute;
+}
+.header .userinfo ul li.user {
+	height: 26px;
+	line-height: 26px;
+	top: 32px;
+	right: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header .userinfo ul li.tianqi {
+	width: 420px;
+	height: 60px;
+	top: 16px;
+	right: 190px;
+}
+
+/* 导航 */
+.naver {
+	width: 1030px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(../images/bg21_20141021.png) repeat-x;
+}
+.naver ul li {
+	display: block;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	background: url(../images/bg06_20140612.png) no-repeat right center;
+}
+.naver ul li a {
+	display: block;
+	padding: 0 40px;
+	color: #FFF;
+}
+.naver ul li.hover {
+	background: url(../images/bg05_20140612.png) repeat-x;
+}
+.naver ul li.hover a {
+	color: #000;
+}
+
+/* 页面主体 */
+.mainer {
+	width: 1050px;
+	margin: 15px auto 20px;
+	overflow: hidden;
+}
+.mainer .lefter {
+	width: 230px;
+	float: right;
+}
+.mainer .lefter .leftmenu {
+	border: 1px solid #99bbe8;
+	padding: 10px 10px 2px;
+	background: url(../images/bg07_20140612.png);
+}
+.mainer .lefter .leftmenu ul li {
+	display: block;
+	height: 48px;
+	line-height: 42px;
+	background: url(../images/bg08_20140612.png) no-repeat;
+	color: #5c6600;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 4px;
+	color: #000000;
+}
+.mainer .lefter .leftmenu ul li a {
+	display: block;
+	color: #000000;
+}
+.mainer .lefter .leftmenu ul li.hover {
+	background: url(../images/bg09_20140612.png) no-repeat;
+	color: #FFF;
+}
+.mainer .lefter .leftmenu ul li.hover a {
+	color: #FFF;
+}
+.mainer .righter {
+	width: 810px;
+	float: left;
+}
+.mainer .righter .moduleer {
+	border: 1px solid #99bbe8;
+	overflow: hidden;
+}
+.mainer .righter .moduleer .title {
+	font-size: 12px;
+	color: #15428b;
+	height: 28px;
+	line-height: 28px;
+	font-weight: bold;
+	border-bottom: 1px solid #99bbe8;
+	text-indent: 10px;
+	background: url(../images/bg10_20140612.png) repeat-x;
+	position: relative;
+}
+.mainer .righter .moduleer .title a {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 10px;
+	font-weight: normal;
+}
+.mainer .righter .moduleer .content {
+	padding: 10px 20px;
+	line-height: 30px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/bg11_20140612.png) repeat-x center top;
+}
+.mainer .righter .moduleer .content ul li {
+	background: url(../images/bg15_20140612.png) no-repeat left center;
+	text-indent: 8px;
+}
+.mainer .righter .moduleer .content ul li span {
+	float: right;
+	color: #999;
+}
+.mainer .righter .moduleer .pagenum {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-top: 1px dotted #CCC;
+	margin: 0 20px;
+}
+.mainer .lefter .timem {
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #99bbe8;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background: #FFF url(../images/bg22_20141022.png) repeat-x center bottom;
+}
+.mainer .lefter .timem .shijian {
+	font-size: 50px;
+}
+.mainer .lefter .timem .xingqi {
+	color: #ff9900;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+}
+.mainer .lefter .timem .nianyue {
+	color: #ff9900;
+	font-size: 22px;
+}
+.mainer .lefter .moduleer {
+	border: 1px solid #99bbe8;
+	overflow: hidden;
+}
+.mainer .lefter .moduleer .title {
+	font-size: 12px;
+	color: #F00;
+	height: 28px;
+	line-height: 28px;
+	font-weight: bold;
+	border-bottom: 1px solid #99bbe8;
+	text-indent: 10px;
+	background: url(../images/bg10_20140612.png) repeat-x;
+}
+.mainer .lefter .moduleer .content {
+	padding: 15px 20px 7px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/bg11_20140612.png) repeat-x center top;
+}
+.mainer .lefter .moduleer .content ul li {
+	padding-bottom: 10px;
+}
+.mainer .lefter .moduleer .content ul li span {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-weight: bold;
+}
+.mainer .righter .xtgl {
+	border: 1px solid #99bbe8;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.mainer .righter .xtgl .title {
+	font-size: 12px;
+	color: #15428b;
+	height: 28px;
+	line-height: 28px;
+	font-weight: bold;
+	border-bottom: 1px solid #99bbe8;
+	text-indent: 10px;
+	background: url(../images/bg10_20140612.png) repeat-x;
+}
+.mainer .righter .xtgl .content {
+	padding: 15px 20px;
+	line-height: 28px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/bg11_20140612.png) repeat-x center top;
+}
+.mainer .righter .xtgl .button {
+	overflow: hidden;
+	padding: 10px;
+	background: url(../images/bg18_20140612.png) repeat-x;
+}
+.mainer .righter .xtgl .button ul li {
+	font-weight: bold;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #7db5de;
+	background: url(../images/bg19_20140612.png) repeat-x;
+	float: right;
+	margin-right: 8px;
+}
+.mainer .righter .xtgl .button ul li a {
+	display: block;
+	padding: 0 15px;
+}
+.mainer .righter .xtgl .biao {
+	overflow: hidden;
+}
+.mainer .righter .xtgl .biao table {
+	border-collapse: collapse;
+}
+.mainer .righter .xtgl .biao table tr td {
+	font-size: 14px;
+	padding: 8px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+.mainer .righter .xtgl .biao table tr td.bt {
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/bg20_20140612.png) repeat-x;
+	font-weight: bold;
+}
+.mainer .righter .xtgl .pagenum {
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+/* 底部 */
+.footer {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 25px 0;
+	background: url(../images/bg12_20140612.png) repeat-x center top;
+	border-top: 1px solid #dcdcdc;
+	text-align: center;
+	line-height: 20px;
+}
+
+/* button,input */
+.zcinput {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 2px;
+	font-size: 14px;
+	background: url(../images/bg03_20140612.png) no-repeat top left;
+}
+.zcselect {
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+}

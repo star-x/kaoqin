@@ -1,0 +1,107 @@
+/* CSS Document */
+body {
+	font-family: "宋体", "微软雅黑", Arial;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+a:link {
+	color: #FFF;
+	text-decoration: none;	
+}
+a:visited {
+	color: #FFF;
+	text-decoration: none;	
+}
+a:hover {
+	color: #FFF;
+	text-decoration: none;	
+}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* 信息填报头部 */
+.zgsc_header {
+	height: 60px;
+	background: url(../images/bg09_20140607.png) repeat-x;
+	border-bottom: 1px solid #c8c8c8;
+	position: relative;	
+}
+.zgsc_header .zgsc_logo {
+	width: 520px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/tp52_20140607.png) no-repeat;
+}
+.zgsc_header a {
+	display: block;
+	width: 80px;
+	height: 26px;
+	position: absolute;
+}
+.zgsc_header a.tcxt {
+	background: url(../images/tp16_20140530.png) no-repeat;
+	right: 5px;
+	top: 17px;
+}
+.zgsc_header a.tcxt:hover {
+	background: url(../images/tp17_20140530.png) no-repeat;
+}
+.zgsc_header a.ggmb {
+	background: url(../images/tp18_20140530.png) no-repeat;
+	right: 93px;
+	top: 17px;
+}
+.zgsc_header a.ggmb:hover {
+	background: url(../images/tp19_20140530.png) no-repeat;
+}
+.zgsc_header a.xgmm {
+	background: url(../images/tp20_20140530.png) no-repeat;
+	right: 93px;
+	top: 17px;
+}
+.zgsc_header a.xgmm:hover {
+	background: url(../images/tp21_20140530.png) no-repeat;
+}
+
+/* 信息填报导航 */
+.zgsc_nav {
+	height: 36px;
+	background-color: #dfe8f6;
+	border-bottom: 1px solid #99bbe8;
+	overflow: hidden;
+	padding-top: 6px;
+	padding-left: 12px;
+}
+.zgsc_nav a {
+	display: block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	background: url(../images/zgsc_navbg.png) no-repeat;
+}
+.zgsc_nav a:hover {
+	background: url(../images/zgsc_navbgh.png) no-repeat;
+}

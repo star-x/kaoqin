@@ -1,0 +1,186 @@
+/* CSS Document */
+body {
+	font-family: "宋体", "微软雅黑", Arial;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	background: url(../images/bg01_20140612.png) repeat-x center 110px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;	
+}
+a:visited {
+	color: #000;
+	text-decoration: none;	
+}
+a:hover {
+	color: #C00;
+	text-decoration: none;	
+}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* 头部 */
+.header {
+	width: 1000px;
+	height: 110px;
+	margin: 0 auto;
+	background: url(../images/logo_20140923.png) no-repeat;
+	position: relative;	
+}
+.header .links {
+	font-size: 12px;
+	position: absolute;
+	right: 2px;
+	bottom: 24px;
+}
+.header .links span {
+	padding: 0 5px;
+}
+
+/* 登录主体 */
+.mainer {
+	height: 451px;
+	background: url(../images/pic01_20140612.jpg) no-repeat center center;
+}
+.mainer .loginer {
+	width: 1200px;
+	height: 451px;
+	margin: 0 auto;
+	position: relative;
+}
+.mainer .loginer .text {
+	width: 500px;
+	position: absolute;
+	left: 175px;
+	top: 155px;
+	line-height: 26px;
+	font-family: "微软雅黑";
+}
+.mainer .loginer .text span {
+	font-size: 16px;
+}
+.mainer .loginer .dlk {
+	width: 354px;
+	height: 328px;
+	background: url(../images/tp01_20140612.png) no-repeat;
+	position: absolute;
+	right: 110px;
+	top: 30px;
+	color: #666;
+}
+.mainer .loginer .dlk a.mm {
+	color: #000;
+	font-size: 12px;
+}
+.mainer .loginer .dlk a.mm:hover {
+	color: #C00;
+}
+.mainer .loginer .dlk a.zc {
+	color: #F60;
+	font-weight: bold;
+}
+.mainer .loginer .dlk a.zc:hover {
+	color: #C00;
+}
+
+/* 登录底部 */
+.footer {
+	padding-top: 30px;
+	line-height: 20px;
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* button,input */
+.dlinput {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #839cb4;
+	width: 222px;
+	height: 36px;
+	line-height: 36px;
+	text-indent: 2px;
+	font-size: 14px;
+	background: #FFF url(../images/tp02_20140612.png) no-repeat left top;
+}
+.loginbtn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url(../images/tp03_20140612.png) no-repeat;
+	border: none 0;
+	width: 224px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+.loginbtn:hover, .loginbtn:focus {
+	background: url(../images/tp04_20140612.png) no-repeat;
+}
+.loginbtn:active {
+	color: #ccc;
+}
+.zcinput {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	width: 260px;
+	height: 32px;
+	line-height: 32px;
+	text-indent: 2px;
+	font-size: 14px;
+}
+.zcselect {
+	border: 1px solid #ccc;
+	width: 262px;
+	padding: 5px;
+}
+.zcbtn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url(../images/tp05_20140612.png) no-repeat;
+	border: none 0;
+	width: 222px;
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+.zcbtn:hover, .zcbtn:focus {
+	background: url(../images/tp06_20140612.png) no-repeat;
+}
+.zcbtn:active {
+	color: #ccc;
+}
